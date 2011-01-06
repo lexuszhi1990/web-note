@@ -1,0 +1,9 @@
+# first git  
+## git://github.com/lexuszhi1990/mylinux.git
+    mkdir *dir
+    cd *dir
+    touch file a
+    git init
+    git add  a
+    git commit -a -m"first github"
+    git push
