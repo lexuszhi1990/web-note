@@ -7,3 +7,13 @@
     git add  a
     git commit -a -m"first github"
     git push
+
+   ##pubkey    
+    sh-keygen -t dsa
+    sudo apt-get install xclip
+    cd .ssh
+               cat id_dsa.pub  |xclip -sel cl
+    ##  publickey where
+       https://github.com/account
+           account admin
+            ssh public key6k
