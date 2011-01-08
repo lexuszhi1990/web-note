@@ -80,15 +80,12 @@ http://happypeter.github.com
      touch README
      git add README
      git commit -m 'first commit'
-
-                  
 ##  publickey
     ssh-keygen -t dsa
     sudo apt-get install xclip
     cat /home/jiesse/.ssh/id_dsa.pub| xclip -sel clip
     ssh git@github.com 
     ssh -v git@github.com
-    
 ##  publickey where
     https://github.com/account
     account admin
@@ -96,7 +93,14 @@ http://happypeter.github.com
 ##  complish
     git remote add origin git@github.com:lexuszhi1990/lexus.git
     git push origin master              
+
 #   time back
-##   check commit line
-##   git checkout ##$$%^&*
-##   git diff
+##   checkout commit line
+  :   git checkout ##$$%^&*
+   :  git diff
+
+      back: git  checkout master
+      check road : git branch
+# git revert
+     country act    such as    + -> -    - -> +
+
