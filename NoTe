@@ -96,3 +96,7 @@ http://happypeter.github.com
 ##  complish
     git remote add origin git@github.com:lexuszhi1990/lexus.git
     git push origin master              
+#   time back
+##   check commit line
+##   git checkout ##$$%^&*
+##   git diff
