@@ -63,7 +63,7 @@ http://happypeter.github.com
 
 # firefox
   markdown note >di.html
-  firefox di,html
+  firefox di.html
 
 #vim -help
 ## vim snipmate
@@ -104,3 +104,20 @@ http://happypeter.github.com
 # git revert
      country act    such as    + -> -    - -> +
 
+#respo name move
+  mv a b
+  git add .
+
+# net 
+  sudo apt-get install opedssh-server
+  service ssh start
+
+#some usefull web
+  <www.beijinglug.org>
+  <www.vim.org>
+  <http://vim-showoff-peter.heroku.com/>
+
+#vim use
+ down peter-vim 
+ vim mivrc   runtime vimrc
+ mv peter-vim .vim
