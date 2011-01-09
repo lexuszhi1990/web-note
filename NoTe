@@ -121,3 +121,18 @@ http://happypeter.github.com
  down peter-vim 
  vim mivrc   runtime vimrc
  mv peter-vim .vim
+
+# git learn resource
+## bash
+   <http://tldp.org/LDP/Bash-Beginners-Guide/html/>
+   Song JinShan : _how to become a good programmer_
+   <http://www.akae.cn/>
+   How to Become a Hacker_ (By Eric S.R)
+   http://www.beijinglug.org
+   git clone git://github.com/happypeter/TLCL.git
+# git more
+  sudo dpkg --purge sth
+  dpkg -l|grep vim
+  sudo apt-get install gource
+  lsb_release -a
+  
