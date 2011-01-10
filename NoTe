@@ -136,3 +136,12 @@ http://happypeter.github.com
   sudo apt-get install gource
   lsb_release -a
   
+#bashcmd
+ vim xxx.sh
+	 #!/bin/bash
+
+	markdown $1 >h.html
+	firefox h.html&
+ mv xxx.sh /bin/xxx
+   ps: /bin  Environment variable
+        xxx note.md
