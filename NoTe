@@ -66,7 +66,17 @@ http://happypeter.github.com
   firefox di.html
 
 #vim -help
-## vim snipmate
+   vim snipmate
+## CMD
+    S : replace the whole line
+    s : some chars replace one char
+    A : add conments at the end of the line
+    b : back the begin of the word
+    s : foward the end of the word
+    w :  foward the end of the next word
+    c : rewrite
+    cw :rewrite a word 
+    !Gsort : paixu
 
 #git hub 
 ## register in github ---first of all
