@@ -155,3 +155,5 @@ http://happypeter.github.com
  mv xxx.sh /bin/xxx
    ps: /bin  Environment variable
         xxx note.md
+
+gg=G to make things beautiful to see
