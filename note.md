@@ -62,7 +62,7 @@ gem "meta_search", "~> 1.1.3"
 
 JS: easytabs
 --------
-[EasyTabs](http://os.alfajango.com/easytabs, "official")
+[EasyTabs](http://os.alfajango.com/easytabs "official")
 
 
 4.17
