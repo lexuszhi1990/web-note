@@ -4,7 +4,7 @@ Markdown-link
 [2]: http://markdown.tw/
 - [Markdown-official][1]
 - [Markdown-tx][2]
-- [Nots](http://snails.github.io/2012/05/08/Learn-to-Markdown/)
+- [Notes](http://snails.github.io/2012/05/08/Learn-to-Markdown/)
 
 Tmux copy
 ---------
@@ -59,3 +59,10 @@ gem 'sequel', '~> 3.36.1' # June 2, 2012
 - http://rubygems.org/gems/meta_search
 gem "meta_search", "~> 1.1.3"
 
+
+JS: easytabs
+--------
+[EasyTabs](http://os.alfajango.com/easytabs, "official")
+
+
+4.17
