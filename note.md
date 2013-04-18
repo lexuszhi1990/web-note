@@ -1,4 +1,6 @@
-Markdown-link
+4/10 
+========
+Markdown-link 
 -------------
 [1]: http://daringfireball.net/projects/markdown/syntax "Daring"
 [2]: http://markdown.tw/
@@ -34,11 +36,8 @@ add public key
 - sudo apt-get install xclip
 - cat /home/jiesse/.ssh/id_dsa.pub | xclip -sel clip
 
-2013.4.10
-
-
-
-
+4/17
+=========
 auto load .bashrc in ubuntu 
 ---------------
 add ` source $HOME/.bashrc ` in '~/.bash_login'
@@ -62,11 +61,16 @@ gem "meta_search", "~> 1.1.3"
 
 JS: easytabs
 --------
-[EasyTabs](http://os.alfajango.com/easytabs "official")
+- [EasyTabs](http://os.alfajango.com/easytabs "official")
 
-
-4.17
-
+4.18
+=============
 GEM: simple_form meta-tag
-[SimpleForm](https://github.com/plataformatec/simple_form "official")
-[MetaSearch](https://github.com/kpumuk/meta-tags "official")
+------------
+1. [SimpleForm](https://github.com/plataformatec/simple_form "official")
+1. [MetaSearch](https://github.com/kpumuk/meta-tags "official")
+
+md-list
+-----
+- '+' '*' '-' => ul
+- number + '.' => ol
