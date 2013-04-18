@@ -66,3 +66,7 @@ JS: easytabs
 
 
 4.17
+
+GEM: simple_form meta-tag
+[SimpleForm](https://github.com/plataformatec/simple_form "official")
+[MetaSearch](https://github.com/kpumuk/meta-tags "official")
