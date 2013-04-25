@@ -70,3 +70,15 @@ JS: easytabs
 GEM: simple_form meta-tag
 [SimpleForm](https://github.com/plataformatec/simple_form "official")
 [MetaSearch](https://github.com/kpumuk/meta-tags "official")
+
+4.25
+----------
+gmagick 
+
+    [Install gmagick on Ubuntu](http://www.gerd-riesselmann.net/development/how-install-imagick-and-gmagick-ubuntu)
+    Install pecl 
+    sudo apt-get install php-pear php5-dev
+    
+colorbox
+    [colorbox](http://www.jacklmoore.com/colorbox/)
+    [carrierwave](http://www.jacklmoore.com/colorbox/)
