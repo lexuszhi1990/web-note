@@ -82,3 +82,7 @@ gmagick
 colorbox
     [colorbox](http://www.jacklmoore.com/colorbox/)
     [carrierwave](http://www.jacklmoore.com/colorbox/)
+
+git-add
+    git add -i [--interactive]
+    git add -p [--patch]
