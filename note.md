@@ -78,6 +78,7 @@ gmagick
     [Install gmagick on Ubuntu](http://www.gerd-riesselmann.net/development/how-install-imagick-and-gmagick-ubuntu)
     Install pecl 
     sudo apt-get install php-pear php5-dev
+    [CarrierWare-doc](http://carrierwave.rubyforge.org/rdoc/)
     
 colorbox
     [colorbox](http://www.jacklmoore.com/colorbox/)
