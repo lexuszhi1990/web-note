@@ -79,6 +79,8 @@ gmagick
     Install pecl 
     sudo apt-get install php-pear php5-dev
     [CarrierWare-doc](http://carrierwave.rubyforge.org/rdoc/)
+        resise_to_limit: Will only resize the image if it is larger than the specified dimensions.
+        resize_to_fit: Resize the image to fit within the specified dimensions while retaining the original aspect ratio.
     
 colorbox
     [colorbox](http://www.jacklmoore.com/colorbox/)
