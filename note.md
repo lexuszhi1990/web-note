@@ -89,3 +89,15 @@ colorbox
 git-add
     git add -i [--interactive]
     git add -p [--patch]
+
+5.2
+-------------
+git commit --amend 
+    amend the last commit 
+
+5.3
+-------------
+rake tasks
+    [rake](http://erik.debill.org/2011/12/04/rake-for-rails-developers)
+    [thesmallestrailsapp](http://thesmallestrailsapp.com/)
+    [single-table-inheritance](http://blog.thirst.co/post/14885390861/rails-single-table-inheritance)
