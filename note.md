@@ -39,7 +39,7 @@ add public key
 
 
 
-auto load .bashrc in ubuntu 
+auto load .bashrc in ubuntu
 ---------------
 add ` source $HOME/.bashrc ` in '~/.bash_login'
 
@@ -101,3 +101,22 @@ rake tasks
     [rake](http://erik.debill.org/2011/12/04/rake-for-rails-developers)
     [thesmallestrailsapp](http://thesmallestrailsapp.com/)
     [single-table-inheritance](http://blog.thirst.co/post/14885390861/rails-single-table-inheritance)
+
+
+5.5
+--------------
+git reset --soft HEAD^1
+git commit --amend
+
+5.11
+-------------------
+可以用下面的命令回到合并之前的状态：
+git reset --hard HEAD
+
+PS1:
+------
+export PS1="\[\033[00;31m\]\W \[\033[32;40m\]\$(parse_git_branch)$\[\033[00m\]"
+
+5.12
+ctrlp
+    ctrl f / d / o
