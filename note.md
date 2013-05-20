@@ -2,7 +2,7 @@ Markdown-link
 -------------
 [1]: http://daringfireball.net/projects/markdown/syntax "Daring"
 [2]: http://markdown.tw/
-- [Markdown-official][1]
+ [Markdown-official][1]
 - [Markdown-tx][2]
 - [Notes](http://snails.github.io/2012/05/08/Learn-to-Markdown/)
 
@@ -143,9 +143,9 @@ vim 自动补全
 C-x C-s -- 拼写建议。
 C-x C-v -- 补全vim选项和命令。
 C-x C-l -- 整行补全。
-C-x C-f -- 自动补全文件路径。弹出菜单后，按C-f循环选择，当然也可以按C-n和C-p。
+C-x C-f -- 自动补全文件路径。弹出菜单后，按C-f循环选择，当然也可以按C-n和C-p.
 C-x C-p 和C-x C-n -- 用文档中出现过的单词补全当前的词。直接按C-p和C-n也可以。
-C-x C-o -- 编程时可以补全关键字和函数名啊。
+C-x C-o -- 编程时可以补全关键字和函数名啊.
 C-x C-i -- 根据头文件内关键字补全。
 C-x C-d -- 补全宏定义。
 C-x C-n -- 按缓冲区中出现过的关键字补全。 直接按C-n或C-p即可。
@@ -155,7 +155,6 @@ vim 文件加解密
 vim -x file: 开始编辑一个加密的文件。
 :X -- 为当前文件设置密码。
 :set key= -- 去除文件的密码。
-这里是 滇狐总结的比较高级的vi技巧。
 
 vim 文件的编码
 ---------------
@@ -168,3 +167,38 @@ fileencoding=ucs-bom,utf-8,cp936，vim会根据要打开的文件选择合适的
 ucs-bom对应于windows下的文件格式。
 
 [Vim Notes](http://snails.github.io/2012/05/08/Learn-to-Markdown)
+
+
+5.15
+--------------
+time.strftime( string ) => string
+
+%a - The abbreviated weekday name (``Sun')
+%A - The full weekday name (``Sunday')
+%b - The abbreviated month name (``Jan')
+%B - The full month name (``January')
+%c - The preferred local date and time representation
+%d - Day of the month (01..31)
+%H - Hour of the day, 24-hour clock (00..23)
+%I - Hour of the day, 12-hour clock (01..12)
+%j - Day of the year (001..366)
+%m - Month of the year (01..12)
+%M - Minute of the hour (00..59)
+%p - Meridian indicator (``AM' or ``PM')
+%S - Second of the minute (00..60)
+%U - Week number of the current year,starting with the first Sunday as the
+%firstday of the first week (00..53)
+%W - Week number of the current year,starting with the first Monday as the
+%firstday of the first week (00..53)
+%w - Day of the week (Sunday is 0, 0..6)
+%x - Preferred representation for the date alone, no time
+%X - Preferred representation for the time alone, no date
+%y - Year without a century (00..99)
+%Y - Year with century
+%Z - Time zone name
+%% - Literal ``%' character')
+
+5.20
+------
+open dir in terminal
+    nautilus [dir]
