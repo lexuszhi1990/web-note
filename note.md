@@ -224,3 +224,7 @@ crontab 文件中的行由 6 个字段组成，不同字段间用空格或 tab �
        星期几（0-6，其中 0 代表星期日）
        第 6 个字段是一个要在适当时间执行的字符串
 [crontab](http://linhs.blog.51cto.com/370259/124751 "crontab")
+
+Ruby的4种闭包：blocks, Procs, lambdas 和 Methods
+http://www.robertsosinski.com/2008/12/21/understanding-ruby-blocks-procs-and-lambdas
+http://rubyer.me/blog/917
