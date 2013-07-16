@@ -228,3 +228,15 @@ crontab 文件中的行由 6 个字段组成，不同字段间用空格或 tab �
 Ruby的4种闭包：blocks, Procs, lambdas 和 Methods
 http://www.robertsosinski.com/2008/12/21/understanding-ruby-blocks-procs-and-lambdas
 http://rubyer.me/blog/917
+
+7-15
+--- --- ---
+[rails cache](http://rails-everyday.group.iteye.com/group/wiki/1160)
+[rails source code](http://www.zhubert.com/blog/archives)
+[cache digests](https://github.com/rails/cache_digests)
+[xdite-cache-digests](http://blog.xdite.net/posts/2012/09/02/cache-digest-new-strategy)
+[rack-mini-profile](http://rubygems.org/gems/rack-mini-profiler)
+
+###cp from server
+rsync --recursive --times --rsh=ssh --compress --human-readable --progress
+--delete deploy@thenanfang.com:/var/www/thenanfang.beansmile.com/shared/public/uploads/ public/uploads/
