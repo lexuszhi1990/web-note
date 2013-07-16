@@ -78,6 +78,7 @@ gmagick
     [Install gmagick on Ubuntu](http://www.gerd-riesselmann.net/development/how-install-imagick-and-gmagick-ubuntu)
     Install pecl 
     sudo apt-get install php-pear php5-dev
+    [php on ubuntu](https://help.ubuntu.com/community/ApacheMySQLPHP)
     [CarrierWare-doc](http://carrierwave.rubyforge.org/rdoc/)
         resise_to_limit: Will only resize the image if it is larger than the specified dimensions.
         resize_to_fit: Resize the image to fit within the specified dimensions while retaining the original aspect ratio.
@@ -238,5 +239,9 @@ http://rubyer.me/blog/917
 [rack-mini-profile](http://rubygems.org/gems/rack-mini-profiler)
 
 ###cp from server
-rsync --recursive --times --rsh=ssh --compress --human-readable --progress
---delete deploy@thenanfang.com:/var/www/thenanfang.beansmile.com/shared/public/uploads/ public/uploads/
+rsync --recursive --times --rsh=ssh --compress --human-readable --progress --delete deploy@thenanfang.com:/var/www/thenanfang.beansmile.com/shared/public/uploads/ public/uploads/
+
+###php on ubuntu
+[php on ubuntu](https://netbeans.org/kb/docs/php/configure-php-environment-ubuntu_zh_CN.html)
+` sudo a2dissite default && sudo a2ensite mysite
+  sudo /etc/init.d/apache2 reload `
