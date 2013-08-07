@@ -295,4 +295,20 @@ else
 end
 
 ###delete the local branch
-git branch --merged | grep -v "\*" | xargs -n 1 git branch -d
+git branch --merged | grep -v "\*" | grep -v "develop" | xargs -n 1 git branch -d
+
+###vim
+Rextract _partiacal
+ctags -R . --exclude=*.js `rvm dir`
+
+###ssh-copy-id
+ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
+
+###cap permission denied
+sudo chown -R deploy:deploy www
+
+###responsive web design
+[](http://www.oschina.net/news/41514/18-detailed-responsive-web-design-tutorials)
+[responsive web article](http://blog.baiwand.com/?post=9)
+[ten nav](http://ju.outofmemory.cn/entry/18377)
+
