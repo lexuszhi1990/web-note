@@ -239,7 +239,7 @@ http://rubyer.me/blog/917
 [rack-mini-profile](http://rubygems.org/gems/rack-mini-profiler)
 
 ###cp from server
-rsync --recursive --times --rsh=ssh --compress --human-readable --progress --delete deploy@thenanfang.com:/var/www/thenanfang.beansmile.com/shared/public/uploads/ public/uploads/
+rsync -avrt --recursive --times --rsh=ssh --compress --human-readable --progress --delete deploy@thenanfang.com:/var/www/thenanfang.beansmile.com/shared/public/uploads/ public/uploads/
 
 ###php on ubuntu
 [php on ubuntu](https://netbeans.org/kb/docs/php/configure-php-environment-ubuntu_zh_CN.html)
@@ -311,4 +311,21 @@ sudo chown -R deploy:deploy www
 [](http://www.oschina.net/news/41514/18-detailed-responsive-web-design-tutorials)
 [responsive web article](http://blog.baiwand.com/?post=9)
 [ten nav](http://ju.outofmemory.cn/entry/18377)
+[sample tab nav](http://www.shejidaren.com/examples/responsive-tabs/)
 
+###ruby post ###
+[curl post](http://www.51testing.com/?uid-359684-action-viewspace-itemid-246529)
+[ruby-doc HTTP::NET](http://ruby-doc.org/stdlib-2.0/libdoc/net/http/rdoc/Net/HTTP.html#method-c-post_form)
+[ruby http https](http://www.cnblogs.com/lwm-1988/archive/2012/04/25/2470147.html)
+e.g.
+    require 'uri'
+    require 'net/http'
+    uri = URI("http://localhost:4000/api/v1/read") =>
+    res = Net::HTTP.post_form(uri, { :article => "text1" })
+###c post###
+[c post](http://www.oschina.net/code/snippet_176076_5908)
+[c http](http://www.cnblogs.com/linbc/archive/2009/03/21/1400108.html)
+[htpp chapter](http://blog.csdn.net/yc0188/article/details/4741871)
+
+###grape gem###
+[grape](https://github.com/intridea/grape)
