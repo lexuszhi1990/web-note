@@ -239,7 +239,9 @@ http://rubyer.me/blog/917
 [rack-mini-profile](http://rubygems.org/gems/rack-mini-profiler)
 
 ###cp from server
-rsync -avrt --recursive --times --rsh=ssh --compress --human-readable --progress --delete deploy@thenanfang.com:/var/www/thenanfang.beansmile.com/shared/public/uploads/ public/uploads/
+rsync -avrt --recursive --times --rsh=ssh --compress --human-readable --progress --delete deploy@thenanfang.com:/var/www/thenanfang.com/shared/public/uploads/ public/uploads/
+###sync pic with blog
+rsync -avrt --recursive --times --rsh=ssh --compress --human-readable --progress --delete deploy@thenanfang.com:/var/www/blog.thenanfang.com/shared/public/uploads/ public/blog/wp-content/uploads/
 
 ###php on ubuntu
 [php on ubuntu](https://netbeans.org/kb/docs/php/configure-php-environment-ubuntu_zh_CN.html)
@@ -315,6 +317,7 @@ sudo chown -R deploy:deploy www
 
 ###ruby post ###
 [curl post](http://www.51testing.com/?uid-359684-action-viewspace-itemid-246529)
+` curl -d "leaderboard_id=7778a8143f111272&score=19&app_key=8d49f16fe034b98b&_test_user=test01" "http://172.16.102.208:8089/wiapi/score" `
 [ruby-doc HTTP::NET](http://ruby-doc.org/stdlib-2.0/libdoc/net/http/rdoc/Net/HTTP.html#method-c-post_form)
 [ruby http https](http://www.cnblogs.com/lwm-1988/archive/2012/04/25/2470147.html)
 e.g.
@@ -329,3 +332,31 @@ e.g.
 
 ###grape gem###
 [grape](https://github.com/intridea/grape)
+
+####post a msg for tidehunter
+`curl -d "state=1&token=abcdef" "http://localhost:4000/api/v1/msg"`
+
+###mysql user###
+mysql> insert into mysql.user(Host,User,Password,ssl_cipher,x509_issuer,x509_subject) values("localhost","pppadmin",password("passwd"),'','','');
+> grant all privileges on phplampDB.* to phplamp@localhost identified by '1234';
+
+
+###linux c poll
+[linux poll](http://blog.csdn.net/zhandoushi1982/article/details/7738424)
+#define POLLIN 0x0001  
+#define POLLPRI 0x0002  
+#define POLLOUT 0x0004  
+#define POLLERR 0x0008  
+#define POLLHUP 0x0010  
+#define POLLNVAL 0x0020  
+#define POLLRDNORM 0x0040  
+#define POLLRDBAND 0x0080  
+#define POLLWRNORM 0x0100  
+#define POLLWRBAND 0x0200  
+#define POLLMSG 0x0400  
+#define POLLREMOVE 0x1000  
+#define POLLRDHUP 0x2000  
+
+###rails time zone
+[rails time zone](http://blog.csdn.net/remote_roamer/article/details/8202521)
+rake time:zones:all
