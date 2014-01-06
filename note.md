@@ -19,12 +19,12 @@ Vim cml
 
 surround-vim:
 -------------
-- dst  
+- dst
 - ds [ put in cml]
 
 rails patial
 ------------
-*   use V or v to choose code 
+*   use V or v to choose code
 *   jump into cml (shift + :)
 *   Rextract "name"
 
@@ -73,16 +73,16 @@ GEM: simple_form meta-tag
 
 4.25
 ----------
-gmagick 
+gmagick
 
     [Install gmagick on Ubuntu](http://www.gerd-riesselmann.net/development/how-install-imagick-and-gmagick-ubuntu)
-    Install pecl 
+    Install pecl
     sudo apt-get install php-pear php5-dev
     [php on ubuntu](https://help.ubuntu.com/community/ApacheMySQLPHP)
     [CarrierWare-doc](http://carrierwave.rubyforge.org/rdoc/)
         resise_to_limit: Will only resize the image if it is larger than the specified dimensions.
         resize_to_fit: Resize the image to fit within the specified dimensions while retaining the original aspect ratio.
-    
+
 colorbox
     [colorbox](http://www.jacklmoore.com/colorbox/)
     [carrierwave](http://www.jacklmoore.com/colorbox/)
@@ -93,8 +93,8 @@ git-add
 
 5.2
 -------------
-git commit --amend 
-    amend the last commit 
+git commit --amend
+    amend the last commit
 
 5.3
 -------------
@@ -267,7 +267,7 @@ puts "Fetching merged branches..."
 remote_branches= `git branch -r --merged`.
   split("\n").
   map(&:strip).
-  reject {|b| b =~ /\/(#{current_branch}|master)/}
+  reject {|b| b =~ /(master|develop)/}
 
 local_branches= `git branch --merged`.
   gsub(/^\* /, '').
@@ -295,6 +295,17 @@ else
     puts "No branches removed."
   end
 end
+
+### delete remote branch
+
+```
+remote_branches= `git branch -r --merged`.split("\n").map(&:strip).reject {|b| b =~ /(master|develop)/}
+
+remote_branches.each do |b|
+  remote, branch = b.split(/\//)
+  `git push #{remote} :#{branch}`
+end
+```
 
 ###delete the local branch
 git branch --merged | grep -v "\*" | grep -v "develop" | xargs -n 1 git branch -d
@@ -343,19 +354,19 @@ mysql> insert into mysql.user(Host,User,Password,ssl_cipher,x509_issuer,x509_sub
 
 ###linux c poll
 [linux poll](http://blog.csdn.net/zhandoushi1982/article/details/7738424)
-#define POLLIN 0x0001  
-#define POLLPRI 0x0002  
-#define POLLOUT 0x0004  
-#define POLLERR 0x0008  
-#define POLLHUP 0x0010  
-#define POLLNVAL 0x0020  
-#define POLLRDNORM 0x0040  
-#define POLLRDBAND 0x0080  
-#define POLLWRNORM 0x0100  
-#define POLLWRBAND 0x0200  
-#define POLLMSG 0x0400  
-#define POLLREMOVE 0x1000  
-#define POLLRDHUP 0x2000  
+#define POLLIN 0x0001
+#define POLLPRI 0x0002
+#define POLLOUT 0x0004
+#define POLLERR 0x0008
+#define POLLHUP 0x0010
+#define POLLNVAL 0x0020
+#define POLLRDNORM 0x0040
+#define POLLRDBAND 0x0080
+#define POLLWRNORM 0x0100
+#define POLLWRBAND 0x0200
+#define POLLMSG 0x0400
+#define POLLREMOVE 0x1000
+#define POLLRDHUP 0x2000
 
 ###rails time zone
 [rails time zone](http://blog.csdn.net/remote_roamer/article/details/8202521)
